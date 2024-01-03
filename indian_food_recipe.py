@@ -390,7 +390,7 @@ df2.head()
 # In[79]:
 
 
-df3=pd.read_csv("C:/Users/user/Desktop/IndianFoodDatasetCSV.csv")
+df3=pd.read_csv("IndianFoodDatasetCSV.csv")
 
 df3.head()
 
