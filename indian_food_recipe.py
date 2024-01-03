@@ -9,6 +9,8 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib import colors 
+import nltk
+import streamlit
 
 pd.options.display.max_columns = None
 pd.options.display.max_rows = None
