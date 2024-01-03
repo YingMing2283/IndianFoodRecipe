@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib import colors 
 import nltk
 nltk.download('wordnet')
+nltk.download('stopwords')
 import streamlit
 
 pd.options.display.max_columns = None
