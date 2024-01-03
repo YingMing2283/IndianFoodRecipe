@@ -10,7 +10,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib import colors 
 
-from IPython.display import display
 pd.options.display.max_columns = None
 pd.options.display.max_rows = None
 
