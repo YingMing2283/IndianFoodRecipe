@@ -10,6 +10,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib import colors 
 import nltk
+nltk.download('wordnet')
 import streamlit
 
 pd.options.display.max_columns = None
@@ -140,13 +141,10 @@ import string
 import math
 import nltk
 
-
 # ## Cosine Similarity & Euclidean Distance and Linear Kernel
 
 # In[47]:
 
-
-import nltk
 vocabulary = nltk.FreqDist()
 # This was done once I had already preprocessed the ingredients
 for ingredients in df2['TranslatedIngredients']:
