@@ -486,7 +486,7 @@ def main():
 
 
     if st.sidebar.button("Recommend"):
-        if ingredient_input or diet_input or course_input:
+        if ingredient_input and diet_input and course_input:
             
             grouped_by_diet = df2.groupby('Diet')
             word_frequencies_by_diet = grouped_by_diet['cleaned_no_stopwords'].apply(lambda x: Counter([word for word_list in x for word in word_list]))
